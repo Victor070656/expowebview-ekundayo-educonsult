@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Ekundayo Educonsult",
+    "slug": "ekundayo-educonsult",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.codemagic.sample.reactnative"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#fff"
+      },
+      "package": "io.codemagic.sample.reactnative",
+      "usesCleartextTraffic": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "183f10a8-6c40-49a7-a107-21b3fc8531d3"
+      }
+    }
+  }
+}
